@@ -78,3 +78,34 @@ body {
   .grid-container2>img {
     width:100%
   }
+
+  .grid-container3 {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 10px;
+  }
+
+  .grid-container3>div>img {
+    width: 100%;
+  }
+
+  .desc {
+    
+    
+    padding: 10px
+    
+  }
+  .back {
+    background-color: lightgray;
+  }
+
+  .name {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+  }
+
+  .title {
+    font-size: 18px;
+    padding-bottom: 10px;
+  }
