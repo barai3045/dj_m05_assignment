@@ -136,9 +136,58 @@ body {
    padding:20px;
    text-align: center;
    border: 1px gray solid;
+   background-color: lightgray;
 }
 
 .btn-group1 {
   display: flex;
   justify-content: center;
+}
+
+.tb {
+ border: none;
+ background-color: transparent;
+}
+
+
+.b_orange {
+  background-color: orangered;
+  padding: 15px;
+  color: white;
+  border: none;
+}
+
+
+.b_white {
+  background-color:white;
+  padding: 15px;
+ 
+  border: none;
+}
+
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+input[type=submit] {
+  width: 100%;
+  background-color: orangered;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color:rgb(236, 66, 4);
 }
