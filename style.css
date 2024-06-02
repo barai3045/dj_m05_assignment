@@ -89,6 +89,13 @@ body {
     width: 100%;
   }
 
+  .grid-container4 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 20px;
+    padding-top:20px;
+  }
+
   .desc {
     
     
@@ -109,3 +116,29 @@ body {
     font-size: 18px;
     padding-bottom: 10px;
   }
+
+
+  .g4-title1 {
+   background-color: gray;
+  }
+
+  .g4-title2 {
+    background-color: orangered;
+  }
+
+  .g4-title1, .g4-title2 {
+    padding:30px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+  }
+.g4-p1 {
+   padding:20px;
+   text-align: center;
+   border: 1px gray solid;
+}
+
+.btn-group1 {
+  display: flex;
+  justify-content: center;
+}
